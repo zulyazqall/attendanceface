@@ -1,0 +1,66 @@
+[
+  {
+    "time": "2026-06-03 15:59:29",
+    "name": "Zuli",
+    "confidence": 43.13,
+    "accuracy_percent": 56.87,
+    "clock_in": "15:53:28",
+    "clock_out": "15:59:29"
+  },
+  {
+    "time": "2026-06-03 15:55:00",
+    "name": "Ahmed Shehata",
+    "confidence": 38.33,
+    "accuracy_percent": 61.67,
+    "clock_in": "15:55:00",
+    "clock_out": ""
+  },
+  {
+    "time": "2026-06-03 15:56:54",
+    "name": "Asad",
+    "confidence": 32.69,
+    "accuracy_percent": 67.31,
+    "clock_in": "15:56:54",
+    "clock_out": ""
+  },
+  {
+    "time": "2026-06-04 10:42:45",
+    "name": "Zuli",
+    "confidence": 47.19,
+    "accuracy_percent": 52.81,
+    "clock_in": "09:38:36",
+    "clock_out": "10:42:45"
+  },
+  {
+    "time": "2026-06-04 10:42:21",
+    "name": "Abdullah Kaita",
+    "confidence": 39.64,
+    "accuracy_percent": 60.36,
+    "clock_in": "10:42:21",
+    "clock_out": ""
+  },
+  {
+    "time": "2026-06-04 10:47:21",
+    "name": "Syahidi",
+    "confidence": 30.76,
+    "accuracy_percent": 69.24,
+    "clock_in": "10:47:21",
+    "clock_out": ""
+  },
+  {
+    "time": "2026-06-04 10:50:07",
+    "name": "Ahmed Shehata",
+    "confidence": 47.48,
+    "accuracy_percent": 52.52,
+    "clock_in": "10:50:07",
+    "clock_out": ""
+  },
+  {
+    "time": "2026-06-09 08:19:35",
+    "name": "Ahmed Shehata",
+    "confidence": 48.91,
+    "accuracy_percent": 51.09,
+    "clock_in": "08:19:35",
+    "clock_out": ""
+  }
+]

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Pengenalan Wajah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            background: #0d6efd;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: 0.3s ease-in-out;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .video-frame {
+            max-width: 100%;
+            border-radius: 1rem;
+            border: 4px solid #198754;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-content">
+        <div class="card p-4 text-center bg-white">
+            <center><img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="mb-3" style="width: 120px; height: auto;"></center>
+            <h2 class="text-dark fw-bold mb-4">
+                <i class="bi bi-person-check-fill me-2"></i>Pengenalan Wajah
+            </h2>
+            <center>
+                <img src="{{ url_for('video_feed') }}" class="video-frame mb-4" width="480" height="360" alt="Video Stream">
+            </center>
+            <a href="{{ url_for('index') }}" class="btn btn-dark">
+                <i class="bi bi-arrow-left me-1"></i>Kembali ke Beranda
+            </a>
+        </div>
+    </div>
+
+    <footer class="text-white text-center py-3 bg-primary">
+        &copy; 2025 - S2 Teknik Informatika Universitas Pamulang
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
